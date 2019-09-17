@@ -148,6 +148,7 @@ nav {
 nav ul {
     list-style-type: none;
     text-align: center;
+    margin-right: 18px;
 }
 
 nav ul li {
@@ -238,7 +239,7 @@ span.icon {
     text-align: center;
     width: 63%;
     margin: 11.9em auto;
-    padding: 2em 0;
+    padding: 3em 0;
     background: rgba(0, 0, 0, 0.16);
     outline: 6px solid rgba(255, 255, 255, 0.03);
 }
@@ -762,13 +763,13 @@ h3.w3l-head.text-center {
 }
 
 .blog-top {
-    background: url(../images/b1.jpg) no-repeat center;
+    background: url(./ujwal jaglan/images/b1.jpg) no-repeat center;
     background-size: cover;
     min-height: 240px;
 }
 
 .blog-top2 {
-    background: url(../images/b2.jpg) no-repeat center;
+    background: url(./ujwal jaglan/images/b2.jpg) no-repeat center;
     background-size: cover;
     min-height: 240px;
 }
@@ -1075,7 +1076,7 @@ div#services {
 /*-- contact--*/
 
 .contact-bottom {
-    background: url(../images/contact1.jpg) no-repeat center;
+    background: url(./ujwal jaglan/images/contact1.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -1156,7 +1157,7 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-tel.wpcf7-validates-as-required.wpcf7-
 }
 
 .contact-right-w3l input[type="submit"]:hover {
-    background: #fff;
+    background: #9c9c9c;
     color: #000;
 }
 
@@ -1281,7 +1282,7 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-tel.wpcf7-validates-as-required.wpcf7-
 /*-- Contact --*/
 
 .contact-main-w3ls {
-    background: url(../images/contact.jpg) no-repeat center;
+    background: url(./ujwal jaglan/images/contact.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -1555,7 +1556,7 @@ span.icon_g_plus {
     height: 32px;
     border: none;
     text-indent: 100%;
-    background: url(../images/move-top.png) no-repeat 0px 0px;
+    background: url(./ujwal jaglan/images/move-top.png) no-repeat 0px 0px;
 }
 
 #toTopHover {
@@ -2433,8 +2434,8 @@ span.icon_g_plus {
         font-size: 2.5em;
     }
     span.span1 {
-        font-size: 28px;
-        width: 162px;
+        font-size: 27px;
+        width: 280px;
     }
     .header-agileinfo {
         min-height: 495px;

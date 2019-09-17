@@ -24,11 +24,12 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
+	<link rel="icon" href="<?=get_theme_file_uri();?>/images/favicon.png" type="image/x-icon">
 	<!-- Custom Theme files -->
 	<link href="<?=get_theme_file_uri();?>/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 	<link rel="stylesheet" href="<?=get_theme_file_uri();?>/css/chocolat.css" type="text/css" media="screen">
 	<!-- chocolate css for gallery light box -->
-	<link href="<?=get_theme_file_uri();?>/css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="<?=get_theme_file_uri();?>/style.css" type="text/css" rel="stylesheet" media="all">
 	<link href="<?=get_theme_file_uri();?>/css/font-awesome.css" rel="stylesheet">
 	<!-- font-awesome icons -->
 	<!--//Custom Theme files-->
@@ -49,17 +50,17 @@
 		<div class="header-banner text-center">
 			<div class="container">
 				<div class="header-bottom">
-					<div class="col-md-4 col-sm-4 header-left">
+					<div class="col-md-3 col-sm-3 header-left">
 						<span class="fa fa-envelope-o icon" aria-hidden="true"></span>
 						<a href="mailto:<?=get_field('email_address');?>"><?=get_field('email_address');?></a>
 					</div>
-					<div class="col-md-4 col-sm-4 logo">
+					<div class="col-md-6 col-sm-6 logo">
 						<h1 class="main-title">
-							<a href="<?php echo site_url();?>">Explore</a>
+							<a href="<?php echo site_url();?>">UJWAL JAGLAN</a>
 
 						</h1>
 					</div>
-					<div class="col-md-4 col-sm-4 header-right">
+					<div class="col-md-3 col-sm-3 header-right">
 						<span class="fa fa-phone icon" aria-hidden="true"></span>
 						<a href="tel:+91<?=get_field('phone_number');?>"><?=get_field('phone_number');?></a>
 					</div>
@@ -67,7 +68,6 @@
 				</div>
 				<div class="banner-text">
 					<h4>welcome to my site!</h4>
-					<h3>i'm <?=get_field('website_honour_name');?></h3>
 					<div class="banner-slide">
 						<h2 class="bnrtext"></h2>
 						<b>

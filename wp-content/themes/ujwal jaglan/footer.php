@@ -48,7 +48,7 @@
 				</div>
 				<div class="modal-body">
 					<div class="model-info">
-						<img src="images/bg2.jpg" alt="" />
+						<img src="<?=get_theme_file_uri();?>/images/bg2.jpg" alt="" />
 						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque
 							ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis
 							porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper. Cras tempor massa

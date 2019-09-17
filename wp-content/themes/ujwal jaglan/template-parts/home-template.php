@@ -11,7 +11,7 @@ get_header();
 		<div class="container">
 			<h4 class="sec-title"><?=get_field('menu_below_title');?></h4>
 			<div class="main-about-grid text-center">
-				<?=get_field('menu_below_description');?>
+				<?php the_content();?>
 				<ul class="about-list">
 					<li>
 						<a href="#contact" class="wthree- about-link scroll"><?=get_field('first_button_text');?></a>
@@ -396,7 +396,6 @@ get_header();
 				<?=do_shortcode('[contact-form-7 id="65" title="Subscription Form"]');?>
 				<div class="clearfix"> </div>
 			</div>
-			<p>We respect your privacy.No spam ever!</p>
 		</div>
 	</div>
 	<!-- //subscribe -->
